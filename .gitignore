@@ -105,6 +105,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.idea/
 
 # Spyder project settings
 .spyderproject
@@ -123,3 +124,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Training data, testing data, and models
+Exports/
+Training Songs/
+Test Songs/
+Training_data/
+Saved models/
+*.npy
+*.h5
